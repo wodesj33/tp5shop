@@ -43,7 +43,7 @@ class Category extends Model
        ->order($order)
       // ->select();
       //分页
-      ->paginate(1);
+      ->paginate();
         //echo $this->getLastSql();
         return $result;
     }
