@@ -1,4 +1,3 @@
-<!--包含头部文件-->
 {include file="public/header" /}
 <div class="cl pd-5 bg-1 bk-gray mt-20">
 	<h1>商户入驻申请</h1>
@@ -186,6 +185,8 @@
 	var SCOPE = {
 		'city_url': '{:url('api/city/getCitysByParentId')}',
 		'category_url': '{:url('api/category/getCategoryByParentId')}',
+		'uploadify_swf': '__STATIC__/admin/uploadify/uploadify.swf',
+		'image_upload': '{:url('api/image/upload')}',
 	}
 </script>
 <!--分配编辑器-->
